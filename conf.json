@@ -72,9 +72,5 @@
     "404": "page/404.php",
     "301": false
   },
-  "paths": {
-    "accounts": "data/accounts",
-    "files": "data/files",
-    "bin": "bin"
-  }
+  "paths": {}
 }
