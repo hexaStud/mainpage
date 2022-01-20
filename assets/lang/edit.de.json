@@ -1,0 +1,45 @@
+{
+    "navbar": {
+        "button1": "Zurück"
+    },
+    "general": {
+        "title": "Allgemein",
+        "subtitle0": "Beschreibung",
+        "name": "Name ...",
+        "license": "Lizenz ...",
+        "description": "Projekt beschreibung (Englisch)",
+        "addTranslation": "Übersetzung hinzufügen",
+        "removeTranslation": "Übersetzung Entfernen"
+    },
+    "img": {
+        "title": "Wallpaper & Icons",
+        "subtitle0": "Wallpaper",
+        "subtitle1": "Main icon",
+        "changeWallpaper": "Wallpaper ändern",
+        "changeIcon": "Icon ändern"
+    },
+    "versions": {
+        "title": "Version",
+        "tag": "Version tag ...",
+        "subtitle0": "Download Dateien",
+        "platform": "Platform name ...",
+        "changeFile": "Datei ändern",
+        "removeFile": "Datei entfernen",
+        "addVersionFile": "Datei hinzufügen",
+        "addVersion": "Version hinzufügen",
+        "subtitle1": "Change notes",
+        "addChangeNode": "Add change node",
+        "removeChangeNode": "Remove change node"
+    },
+    "controller": {
+        "button": "Speichern und zurück"
+    },
+    "footer": {
+        "copyright": "Copyright",
+        "item": {
+            "1": "Copyright",
+            "2": "Copyright 2"
+        },
+        "text": "Copyright &copy; HexaStudio 2018 - 2021"
+    }
+}

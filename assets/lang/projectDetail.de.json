@@ -1,0 +1,17 @@
+{
+  "navbar": {
+    "button1": "Zurück"
+  },
+  "release": {
+    "title": "Release"
+  },
+  "details": {
+    "license": "Lizenz:"
+  },
+  "productList": {
+    "version": "Versionen",
+    "changes": "Change nodes",
+    "download": "Downloads",
+    "downloadText": "Herunterladen für"
+  }
+}

@@ -1,0 +1,52 @@
+{
+    "navbar": {
+        "button1": "Login"
+    },
+    "header": {
+        "title": "HexaStudio",
+        "subtitle": "Programing Studio since 2018"
+    },
+    "build": {
+        "title": "Build Effective",
+        "subtitle": "With our team, frameworks and libraries,<br>we create effective software for web, desktop and mobile",
+        "future": {
+            "title": "The Future of HexaStudio",
+            "grid1": {
+                "title": "Working",
+                "text": "With our developers, designers and other members we build effective applications. We update and improve our software each in small periods of time to present the best quality."
+            },
+            "grid2": {
+                "title": "Internationalization",
+                "text": "Our i18n framework makes it easy for us to produce software for the multilingual space. Even after completion, a language can be easily added without having to change the source code."
+            }
+        },
+        "everyone": {
+            "title": "HexaStudio is for every one",
+            "grid": {
+                "grid1": {
+                    "title": "Developers",
+                    "text": "All our frameworks, libraries and software are licensed under the MIT license. That means you can use them for your own products for free.",
+                    "node": "Nevertheless, always pay attention to the license assignment of the individual products."
+                },
+                "grid2": {
+                    "title": "Offices",
+                    "text": "Use our free software to simplify your work in the office and increase its efficiency."
+                }
+            }
+        }
+    },
+    "products": {
+        "title": "Our Products",
+        "subtitle": "Build for everyone",
+        "cardLink": "See more",
+        "link": "See all projects"
+    },
+    "footer": {
+        "copyright": "Copyright",
+        "item": {
+            "1": "Copyright",
+            "2": "Copyright 2"
+        },
+        "text": "Copyright &copy; HexaStudio 2018 - 2021"
+    }
+}

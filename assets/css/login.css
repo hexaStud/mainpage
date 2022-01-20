@@ -1,0 +1,57 @@
+@import "./theme.css";
+@import "./HUID/all.css";
+
+body {
+    background: linear-gradient(-20deg, #521d91 0%, #4a42ec 100%);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    transition: background-color 0.4s;
+}
+
+.navbar nav {
+    padding: 5px 20px;
+}
+
+
+.navbar nav img {
+    max-height: 50px;
+    width: auto;
+}
+
+.panel {
+    background: #fff;
+    width: 300px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:first-of-type {
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 1260px) {
+    section {
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+
+    section:first-of-type {
+        justify-content: center;
+    }
+}

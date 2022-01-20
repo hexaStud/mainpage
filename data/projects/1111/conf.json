@@ -1,0 +1,21 @@
+{
+    "name": "Sirent",
+    "icon": "icon.png",
+    "wallpaper": "sirent-wallpaper.jpg",
+    "author": {
+        "name": "Christoph Koschel",
+        "id": 1111
+    },
+    "license": "MIT",
+    "versions": [
+        {
+            "tag": "2.1.1",
+            "downloads": [
+                {
+                    "name": "Windows",
+                    "file": "1641855470668-win-installer.zip"
+                }
+            ]
+        }
+    ]
+}

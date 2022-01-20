@@ -1,0 +1,11 @@
+@import "components/buttons.css";
+@import "components/input.css";
+@import "components/attr.css";
+@import "components/boxes.css";
+@import "components/text.css";
+
+body {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+}

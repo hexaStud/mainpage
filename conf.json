@@ -1,0 +1,80 @@
+{
+  "enableStaticAccess": true,
+  "encodings": [
+  ],
+  "includes": [
+    "lib",
+    "components",
+    "HexaStudio"
+  ],
+  "disableDirs": [
+    "data/"
+  ],
+  "pages": [
+    {
+      "url": "/",
+      "file": "page/index.php"
+    },
+    {
+      "url": "/project",
+      "file": "page/project.php"
+    },
+    {
+      "url": "/project/detail/*",
+      "file": "page/projectDetail.php"
+    },
+    {
+      "url": "/project/get/all",
+      "file": "assets/php/projectGetAll.php"
+    },
+    {
+      "url": "/project/get/img",
+      "file": "assets/php/projectGetImg.php"
+    },
+    {
+      "url": "/project/download/*/*",
+      "file": "assets/php/download.php"
+    },
+    {
+      "url": "/login",
+      "file": "page/login.php"
+    },
+    {
+      "url": "/login/try",
+      "file": "assets/php/loginTry.php"
+    },
+    {
+      "url": "/logout",
+      "file": "assets/php/logout.php"
+    },
+    {
+      "url": "/home",
+      "file": "page/home.php"
+    },
+    {
+      "url": "/home/edit/*",
+      "file": "page/edit.php"
+    },
+    {
+      "url": "/home/edit/set/img",
+      "file": "assets/php/setImg.php"
+    },
+    {
+      "url": "/home/edit/set/version",
+      "file": "assets/php/setVersion.php"
+    },
+    {
+      "url": "/home/edit/set/data",
+      "file": "assets/php/setData.php"
+    }
+  ],
+  "error": {
+    "404": "page/404.php",
+    "301": false
+  },
+  "paths": {
+    "accounts": "data/accounts",
+    "files": "data/files",
+    "bin": "bin"
+  }
+}

@@ -1,0 +1,130 @@
+section {
+    padding: 10em 8%;
+}
+
+.imgContainer {
+    text-align: center;
+}
+
+.imgContainer img {
+    width: 100%;
+}
+
+.imgContainer img.size-s {
+    max-width: 250px;
+}
+
+.imgContainer img.size-m {
+    max-width: 500px;
+}
+
+.imgContainer img.size-l {
+    max-width: 750px;
+}
+
+*.center > .iconBox {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iconBox {
+    width: 48px;
+    height: 48px;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0, rgba(60, 64, 67, 0.15) 0 1px 3px 1px;
+    margin: 15px;
+}
+
+.iconBox img {
+    width: 48px;
+    height: 48px;
+}
+
+.container {
+    margin: 1rem 5%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.container.colored-primary {
+    background: var(--primary-color);
+}
+
+.container.colored-secondary {
+    background: var(--secondary-color);
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid > .grid-item {
+    width: 100%;
+    padding: 10px;
+}
+
+.grid.size-s > .grid-item {
+    max-width: calc(250px - 2 * 10px);
+}
+
+.grid.size-m > .grid-item {
+    max-width: calc(500px - 2 * 10px);
+}
+
+.grid.size-l > .grid-item {
+    max-width: calc(750px - 2 * 10px);
+}
+
+.listBox {
+    width: 100%;
+}
+
+.listBox:not(.small) {
+    box-shadow: rgba(67, 71, 85, 0.27) 0 0 0.25em, rgba(90, 125, 188, 0.05) 0 0.25em 1em;
+}
+
+.listBox.overflow {
+    overflow-y: scroll;
+    max-height: 500px;
+}
+
+.listBox > ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.listBox > ul > li {
+    display: block;
+    padding: 15px 30px;
+}
+
+.listBox.small > ul > li {
+    padding: 5px 10px;
+}
+
+.listBox.hover > ul > li:hover {
+    background-color: rgba(120, 120, 120, 0.2);
+}
+
+.splitLine {
+    top: 0.33em;
+    padding: 10px 0;
+    border-bottom: 1px solid hsla(0, 0%, 50%, .33);
+}
+
+@media only screen and (max-width: 1260px) {
+    section {
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+
+    .listBox > ul > li > * {
+        text-align: center !important;
+    }
+}

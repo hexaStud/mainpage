@@ -1,0 +1,20 @@
+@font-face {
+    src: url("../font/Lato-Regular.ttf");
+    font-family: "Lato-Regular";
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+:root {
+    --primary-color: -webkit-linear-gradient(
+            120deg, #b142ec 0%, #812bea 100%);
+    --secondary-color: radial-gradient(circle at top left, #4a42ec 0%, #521d91 100%);
+    --link: #9600ff;
+    --link-visited: #7000bd;
+}
+
+* {
+    font-family: "Lato-Regular", system-ui;
+}

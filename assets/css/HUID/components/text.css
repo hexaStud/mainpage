@@ -1,0 +1,101 @@
+.title {
+    padding: 15px 0;
+    text-align: center;
+}
+
+.title span {
+    font-size: 4rem;
+    background-image: var(--primary-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+
+.subtitle {
+    text-align: center;
+    padding: 3px 0;
+}
+
+.subtitle span {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #000;
+}
+
+.subtitle.light span {
+    color: #fff;
+}
+
+.subsubtitle {
+    text-align: center;
+    padding: 3px 0;
+}
+
+.subsubtitle span {
+    font-weight: bold;
+    font-size: 1.35rem;
+    color: #000;
+}
+
+.subsubtitle.light span {
+    color: #fff;
+}
+
+.noteText {
+
+}
+
+.noteText span {
+    font-size: 1em;
+    color: #494949
+}
+
+.noteText.light span {
+    color: #9d9d9d;
+}
+
+.textBox {
+    text-align: center;
+}
+
+.textBox p, .textBox span {
+    font-size: 1.2em;
+    color: #000;
+}
+
+.textBox.light p, .textBox.light span {
+    color: #fff;
+}
+
+.doubleTextBox {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.linkBox {
+
+}
+
+.linkBox a {
+    color: var(--link);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.linkBox a:visited {
+    color: var(--link-visited);
+}
+
+.bold * {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1260px) {
+    .title span {
+        font-size: 3rem;
+        background-image: var(--primary-color);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bolder;
+    }
+}

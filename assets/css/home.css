@@ -1,0 +1,37 @@
+@import "./theme.css";
+@import "./HUID/all.css";
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    transition: background-color 0.4s;
+}
+
+.navbar.transparent {
+    background-color: transparent;
+}
+
+.navbar nav {
+    padding: 5px 20px;
+}
+
+
+.navbar nav img {
+    max-height: 50px;
+    width: auto;
+}
+
+@media only screen and (max-width: 1260px) {
+    section {
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+}

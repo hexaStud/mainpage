@@ -1,0 +1,19 @@
+{
+    "navbar": {
+        "button1": "Back"
+    },
+    "panel": {
+        "title": "Login",
+        "username": "Username ...",
+        "password": "Password ...",
+        "submit": "Login"
+    },
+    "footer": {
+        "copyright": "Copyright",
+        "item": {
+            "1": "Copyright",
+            "2": "Copyright 2"
+        },
+        "text": "Copyright &copy; HexaStudio 2018 - 2021"
+    }
+}

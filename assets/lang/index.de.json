@@ -1,0 +1,52 @@
+{
+    "navbar": {
+        "button1": "Anmelden"
+    },
+    "header": {
+        "title": "HexaStudio",
+        "subtitle": "Programing Studio since 2018"
+    },
+    "build": {
+        "title": "Effizientes bauen",
+        "subtitle": "Mit unserem Team, Frameworks und Bibliotheken,<br>erstellen wir effektive Software für Web, Desktop und Mobile",
+        "future": {
+            "title": "Die Zukunft von HexaStudio",
+            "grid1": {
+                "title": "Arbeitsumfeld",
+                "text": "Mit unseren Entwicklern, Designern und anderen Mitgliedern erstellen wir effektive Anwendungen. Wir aktualisieren und verbessern unsere Software jeweils in kleinen Zeitabständen, um die beste Qualität zu präsentieren."
+            },
+            "grid2": {
+                "title": "Internationalisierung",
+                "text": "Unser i18n-Framework macht es uns leicht, Software für den mehrsprachigen Raum zu entwickeln. Auch nach der Fertigstellung kann eine Sprache einfach hinzugefügt werden, ohne den Quellcode ändern zu müssen."
+            }
+        },
+        "everyone": {
+            "title": "Geeignet für jede Umgebung",
+            "grid": {
+                "grid1": {
+                    "title": "Für Entwickler",
+                    "text": "Alle unsere Frameworks, Bibliotheken und Software sind unter der MIT-Lizenz lizenziert. Das heißt, Sie können sie kostenlos für Ihre eigenen Produkte verwenden.",
+                    "node": "Achten Sie aber immer auf die Lizenzvergabe der einzelnen Produkte."
+                },
+                "grid2": {
+                    "title": "Im Büro",
+                    "text": "Nutzen Sie unsere kostenlose Software, um Ihre Arbeit im Büro zu vereinfachen und effizienter zu gestalten."
+                }
+            }
+        }
+    },
+    "products": {
+        "title": "Unsere Produkte",
+        "subtitle": "Für jeden etwas",
+        "cardLink": "Details",
+        "link": "Alle Produkte anzeigen"
+    },
+    "footer": {
+        "copyright": "Copyright",
+        "item": {
+            "1": "Copyright",
+            "2": "Copyright 2"
+        },
+        "text": "Copyright &copy; HexaStudio 2018 - 2021"
+    }
+}

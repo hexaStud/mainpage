@@ -1,0 +1,31 @@
+input {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 8px 0 var(--primary-color);
+}
+
+textarea {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+textarea:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 8px 0 var(--primary-color);
+}

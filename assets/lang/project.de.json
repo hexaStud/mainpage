@@ -1,0 +1,22 @@
+{
+    "navbar": {
+        "button1": "Zurück"
+    },
+    "header": {
+        "title": "Projekte",
+        "search": {
+            "placeholder": "Suchen ...."
+        }
+    },
+    "products": {
+        "cardLink": "Details"
+    },
+    "footer": {
+        "copyright": "Copyright",
+        "item": {
+            "1": "Copyright",
+            "2": "Copyright 2"
+        },
+        "text": "Copyright &copy; HexaStudio 2018 - 2021"
+    }
+}
